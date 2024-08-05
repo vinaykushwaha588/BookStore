@@ -114,7 +114,7 @@ class RecommendationViewSet(viewsets.ModelViewSet):
         model_obj.save()
         return Response({'success': True, 'message': "Comment on the Books."}, status=status.HTTP_200_OK)
 
-    @action(detail=True, methods=['post'], permission_classes=[permissions.IsAuthenticated])
+    @action(detail=True, methods=['put'], permission_classes=[permissions.IsAuthenticated])
     def like(self, request, pk=None):
         try:
             recommendation = self.get_object()
