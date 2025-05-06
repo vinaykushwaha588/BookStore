@@ -19,3 +19,5 @@ link - https://api.postman.com/collections/36505766-18fbafbe-5995-41a5-83db-3fe7
 ● POST: http://localhost:8000/api/recommend/comment/: Comment on the Book.
 ● PUT : http://localhost:8000/api/recommend/1/like/: Like Book.
 ● GET http://localhost:8000/api/recommend/book_recommendations/?book_id=12: Book Recomendations.
+
+#Testing Pipeline
